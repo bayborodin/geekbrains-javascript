@@ -4,7 +4,57 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <h1>GeekBrains Js</h1>
+        <h1>GeekBrains JavaScript</h1>
+        <h2>Home Work 1</h2>
+        <h3>Задание 1. Пересчет Цельсий -> Фаренгейт</h3>
+        <form>
+            <div style="margin-bottom: 20px;">
+                <label for="celsius">Температура по Цельсию:</label><br>
+                <input type="text" id="celsius" name="celsius">
+            </div>
+            <input
+                type="button"
+                name="btn-calculate"
+                id="btn-calculate"
+                value="Перевести в Фаренгейты"
+                onclick="countFahrenheit()"
+            >
+        </form>
+
+        <h3>Задание 2. Две переменные</h3>
+        <div>
+            <cite>
+                Объявить две переменные: admin и name.
+                Записать в name строку "Василий";
+                Скопировать значение из name в admin.
+                Вывести admin (должно вывестись «Василий»).
+            </cite>
+        </div>
+        <div>
+            <input
+                type="button"
+                id="btn-opvars"
+                onclick="operateVariables()"
+                value="Решение"
+            >
+        </div>
+
+        <h3>Задание 3.</h3>
+        <div>
+            Чему будет равно JS-выражение 1000 + "108"?
+        </div>
+        <div>
+            <input type="button" onclick="operateNumAndStr()" value="Решение">
+        </div>
+
+        <h3>Задание 4.</h3>
+        <div>
+            Самостоятельно разобраться с атрибутами тега
+            <strong>script</strong> (<strong>async</strong> и <strong>defer</strong>)
+        </div>
+        <div>
+            Разобрался. Читал <a href="https://learn.javascript.ru/script-async-defer">ЗДЕСЬ</a>.
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
